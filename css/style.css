@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: cursive;
+}
+.wrapper {
+    margin: -8px;
+    padding: 0;
+}
+
+section {
+    padding: 0;
+}
+
+.section-header {
+    margin-bottom: -55px;
+}
+
+.section-header h2 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.container {
+    width: 100%;
+    height: 950px;
+    margin: 0;
+    background-color: #fff;
+}
+
+/* Header styles */
+.main-header {
+    height: 80vh;
+    background-image: url(../img/wymianaopon2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header .main-header-content {
+    text-align: center;
+    display: flex;
+}
+.main-header .main-header-content h1 {
+    margin-left: 70px;
+    margin-bottom: 150px;
+    font-size: 5.5em;
+    color: #0009;
+
+}
+.main-header .main-header-content p {
+    font-size: 26px;
+    color:  #fff;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.main-header .main-header-content p span {
+    color: #fff;
+}
+
+/* Menu section styles */
+
+.main-menu {
+    padding: 10px;
+    background-image: url(../img/tło.jpg);
+}
+
+#drop-nav {
+    display: none;
+}
+
+label[for="drop-nav"] {
+    display: none;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.main-menu .menu-item {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.main-menu .menu-item a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: block;
+    transition: all .5s;
+}
+
+.main-menu ul .menu-item a:hover {
+    color: white;
+    background-color: #fff5;
+    border-radius: 5px;
+}
+
+/* About section styles */
+.about {
+    text-align: center;
+    background-color: #fff;
+    margin-top: -20px;
+}
+.about .container {
+    background-image: url(../img/tło.jpg);
+    background-attachment: fixed;
+}
+.about p {
+    max-width: 700px;
+    margin: 40px auto 30px auto;
+    font-size: 25px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.about p span {
+    font-size: 30px;
+}
+
+.about img {
+    width: 300px;
+    margin-top: 150px;
+    border-radius: 90%;
+}
+
+/* Cars section styles */
+.cars {
+    margin-top: -25px;
+}
+
+.cars-wrapper{
+    height: 940px;
+    background-attachment: fixed;
+    margin-top: -33px;
+}
+
+.section-cars h2 {
+    color: #fff;
+    margin-bottom: 0px;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cars-wrapper { 
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../img/wymianaopon2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cars-wrapper .cars-item {
+    flex-basis: 30%;
+    height: 200px;
+    margin: 30px;
+    left: 0px;
+    position: relative;
+}
+.cars-wrapper .cars-item img {
+    margin-top: 15px;
+    width: 100%;
+    height: 200px;
+    object-fit: scale-down;
+}
+
+.cars-wrapper .cars-item h3 {
+   position: absolute;
+    top: 15px;
+    left: 102px;
+    width: 64.5%;
+    height: 100%;
+    background-color: rgba(0 ,0, 0, 0.8);
+    margin: 0;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.5em;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.cars-wrapper .cars-item h3:hover {
+    opacity: 1;
+}
+/* When section styles */
+
+.when {
+    margin-top: -25px;
+}
+
+.section-when{
+    background-attachment: fixed;
+    background-image: url(../img/tło.jpg);
+    height: 110vh;
+    width: 100%;
+}
+
+.section-when h2 {
+    color: #fff;
+    font-weight: 500;
+    margin-left: 250px;
+    padding: 50px;
+    text-align: left;
+}
+
+.section-when h3 {
+    text-align: center;
+    margin-left: 1000px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.square {
+    width: 600px;
+    height: 400px;
+    background-color:#fff;
+    display: block;
+    margin-left: 100px;
+    margin-top: -450px;
+}
+
+.section-when img {
+    margin: 0;
+    display: block;
+}
+
+/* Contact section styles */
+
+.contact {
+    margin-top: -30px;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: -107px;
+}
+
+.social-links .container {
+    width: 100%;
+    height: 500px;
+}
+
+.social-links .social-link {
+    font-size: 2.5em;
+    color: #fff;
+    transition: .5s;
+    display: inline-block;
+    margin: 0 50px; 
+    width: 60px;
+    height: 60px;
+    border-radius: 90%;
+}
+/* .social-links .social-link:hover */
+
+i[class="fab fa-facebook"]:hover{
+    color: #3b5998;
+    transition: .5s;
+}
+
+i[class="fab fa-instagram"]:hover{
+    color: #833ab4;
+    transition: .5s;
+}
+
+i[class="fas fa-phone"]:hover{
+    color: #25d366;
+    transition: .5s;
+}
+
+i[class="fas fa-map-marker-alt"]:hover{
+    color: #ff0000;
+    transition: .5s;
+}
+
+.social-links .social-link:hover {
+    width: 60px;
+    height: 60px;
+}
+
+.main-footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* @media */
+@media (max-width:1200px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 768px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .container {
+        max-width: 90%;
+    }
+
+}
+
+@media (max-width:480px) {
+    
+    .main-header .main-header-content h1 {
+        font-size: 3em;
+    }
+    .about .about-img {
+        max-height: 200px;
+        max-width: 200px;
+    }
+    .contact input[type="text"],
+    .contact input[type="email"] {
+        flex-basis: 100%;
+    }
+
+
+    label[for="drop-nav"] {
+        display: block;
+        padding: 14px 20px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .main-menu ul {
+        display: none;
+    }
+
+    #drop-nav:checked + ul {
+        display: block;
+    }
+
+    .main-menu ul .menu-item {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .home {
+        width: 100%;
+    }
+    
+    .main-header-content{
+        font-size: 1em;
+    } 
+
+    
+    
+
+}
